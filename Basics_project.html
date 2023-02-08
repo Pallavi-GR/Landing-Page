@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>⭐Language Center⭐</title>
+  </head>
+  <style>
+    body {
+      width: 35%;
+      margin: 50px auto;
+      font-family: monospace;
+      text-align: center;
+    }
+
+    .Project1{
+      background-image: radial-gradient(
+        328px at 2.9% 15%,
+        rgb(191, 224, 251) 0%,
+        rgb(232, 233, 251) 25.8%,
+        rgb(252, 239, 250) 50.8%,
+        rgb(234, 251, 251) 77.6%,
+        rgb(240, 251, 244) 100.7%
+      );
+      border: 3px solid #ffffff;
+      border-radius: 30px;
+      box-shadow: 2px 2px 2px 5px #bebbbb;
+    }
+
+    h1 {
+      opacity: 0.7;
+      color: #1a64d6;
+      text-align: center;
+      font-size: 36px;
+      font-family: monospace;
+      line-height: 48px;
+    }
+
+    h2 {
+      opacity: 0.8;
+      color: #336cc0;
+      font-family: monospace;
+      text-align: center;
+      font-size: 26px;
+      font-weight: lighter;
+      text-decoration: underline;
+    }
+
+    p {
+      color: #395d94;
+      font-size: 16px;
+      opacity: 0.8;
+      text-align: center;
+      font-family: monospace;
+      max-width: 600px;
+      margin: auto auto;
+      padding: 15px;
+      font-size: 16px;
+    }
+
+    ol {
+      color: #395d94;
+      text-align: center;
+      padding: auto;
+      max-width: 400px;
+      margin: auto auto;
+      font-size: 16px;
+    }
+
+    li {
+      color: #395d94;
+      opacity: 0.8;
+      font-family: monospace;
+      text-align: center;
+      padding: 8px 0;
+      border-radius: 10px;
+      transition: all 200ms ease-in-out;
+      font-size: 16px;
+    }
+    img {
+      display: block;
+      margin: auto;
+      border-radius: 10px;
+    }
+
+    button {
+      font-family: monospace;
+      color: white;
+      background-color: #395d94;
+      padding: 15px 20px;
+      display: block;
+      font-size: 16px;
+      margin: 20px auto;
+      line-height: 22px;
+      border: 1px solid #3b45ca;
+      border-radius: 30px;
+      box-shadow: 2px 5px 5px grey;
+      transition: all 200ms ease;
+      cursor: pointer;
+    }
+    button:hover {
+      background: white;
+      color: #1a64d6;
+    }
+
+    .lang {
+      color: #395d94;
+      font-family: monospace;
+      text-align: center;
+      padding: auto;
+      max-width: 600px;
+      margin: auto auto;
+      font-size: 18px;
+    }
+
+    .contact {
+      color: #395d94;
+      font-family: monospace;
+      text-align: center;
+      font-size: 10px;
+    }
+    footer {
+      text-align: center;
+      opacity: 0.4;
+    }
+  </style>
+  <body>
+    <div class="Project1">
+      <h1>
+        ✨ Language Center ✍📚✨ <br />
+        Learn a Foreign Language
+      </h1>
+
+      <h2>Blossom into the impressive polyglot you aspire to be 👩‍💻</h2>
+
+      <p>
+        The advantages of learning foreign languages are mushrooming as the
+        world becomes increasingly globalized and bilingual. Foreign language
+        study is all about learning how to truly communicate and connect with
+        others. If you’re thinking about making the effort to learn a foreign
+        language rather than expecting the world to accommodate your
+        monolingualism, you are a rare breed indeed.
+        <br />
+        <strong> Limited amount of spots! </strong>
+      </p>
+
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/009/358/original/Learn_language.jpg?1621790593"
+        alt="Learn Language"
+        width="500"
+      />
+      <br />
+
+      <h2>Why do you need it?</h2>
+
+      <ol>
+        <li>Learning a foreign language is sexy.</li>
+        <li>
+          Travel becomes cheaper and easier when you know a foreign language.
+        </li>
+        <li>It opens up a world of job opportunities.</li>
+        <li>
+          Form meaningful friendships when you study a foreign language and many
+          more reasons.
+        </li>
+      </ol>
+
+      <p>
+        Click on the link for more details:
+        <a
+          class="link"
+          href="https://www.goabroad.com/articles/language-study-abroad/why-is-it-important-to-learn-a-foreign-language"
+          target="_blank"
+        >
+          Learn a new language
+        </a>
+      </p>
+      <hr />
+      <h2>Language courses offered</h2>
+
+      <div class="lang">English | Spanish | French | German | Portuguese</div>
+      <hr />
+      <button class="apply">Apply for the course</button>
+
+      <div class="contact">
+        Email:
+        <span class="email">
+          <a href=" mailto:hello@languagecenter.com ">
+            hello@languageinstitute.com</a
+          ></span
+        >
+        | Instagram:
+        <span class="insta">@langcenter.io</span>
+      </div>
+      
+    <footer>
+      <p> Designed by Pallavi GR |
+      <a href="mailto:pallavi.gr3@gmail.com">pgr@gmail.com</a> </p>
+    </footer>
+    </div>
+
+  </body>
+
+  <script>
+    function details() {
+      let name = prompt("Please enter your name.");
+      if (name === null) {
+        return;
+      } else if (name.length > 0) {
+        let email = prompt("Please enter your email id.");
+        if (email === null) {
+          return;
+        } else if (email.length > 8) {
+          let course = prompt("Which course do you want to opt for");
+          alert(
+            "Hi " +
+              name +
+              ", Thank you for contacting us!! We will get in touch with you shortly."
+          );
+        } else if (email.length < 3) {
+          alert("Please enter a valid Email ID.");
+        }
+      } else {
+        alert("Enter a valid name.");
+      }
+    }
+
+    let buttoncontact = document.querySelector("button");
+    buttoncontact.addEventListener("click", details);
+  </script>
+</html>
